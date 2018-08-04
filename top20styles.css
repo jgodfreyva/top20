@@ -1,0 +1,42 @@
+
+body {
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: azure;
+    margin: 5px 10px;
+}
+
+h5 {
+    color: white;
+    margin: 5px 10px;
+}
+
+.tunes-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.album {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    box-sizing: border-box;
+    float: left;
+    margin: 20px;
+} 
+
+.album-info {
+    position: absolute;
+    width: 100%;
+    bottom: -5px;
+    margin-bottom: 5px;
+    background-color: cornflowerblue;
+    border-bottom: solid 5px #8f8f8f;
+}
