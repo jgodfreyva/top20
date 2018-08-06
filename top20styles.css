@@ -1,25 +1,35 @@
 
 body {
-
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: .5px;
 }
 
 h1 {
     text-align: center;
+    font-family: 'Work Sans', sans-serif;
 }
 
 h3 {
     color: azure;
     margin: 5px 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+    padding-top: 5px;
 }
 
 h5 {
     color: white;
     margin: 5px 10px;
+    font-size: 12px;
+    font-size: 500; 
 }
 
 .tunes-wrapper {
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .album {
@@ -28,8 +38,11 @@ h5 {
     height: 200px;
     background-color: blue;
     box-sizing: border-box;
-    float: left;
+    display: block;
+    float: right;
     margin: 20px;
+    background-image: url(img/lafemme.jpg);
+    background-size: 100%;
 } 
 
 .album-info {
@@ -38,5 +51,7 @@ h5 {
     bottom: -5px;
     margin-bottom: 5px;
     background-color: cornflowerblue;
-    border-bottom: solid 5px #8f8f8f;
+/*    border-bottom: solid 5px #444;*/
 }
+
+
