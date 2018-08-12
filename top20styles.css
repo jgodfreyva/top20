@@ -11,7 +11,7 @@ h1 {
 }
 
 h3 {
-    color: azure;
+    color: #A5C4D4;
     margin: 5px 10px;
     font-size: 18px;
     font-weight: 400;
@@ -20,8 +20,8 @@ h3 {
 }
 
 h5 {
-    color: white;
-    margin: 5px 10px;
+    color: #C3DFE0;
+    margin: 0px 10px 5px 10px;
     font-size: 12px;
     font-size: 500; 
 }
@@ -39,7 +39,7 @@ h5 {
     background-color: blue;
     box-sizing: border-box;
     display: block;
-    float: right;
+    float: left;
     margin: 20px;
     background-image: url(img/lafemme.jpg);
     background-size: 100%;
@@ -50,8 +50,8 @@ h5 {
     width: 100%;
     bottom: -5px;
     margin-bottom: 5px;
-    background-color: cornflowerblue;
-/*    border-bottom: solid 5px #444;*/
+    background-color: #2F4858;
+    border-bottom: solid 5px #476C9B;
 }
 
 
