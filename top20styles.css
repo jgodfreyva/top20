@@ -1,3 +1,5 @@
+#9197AE – nice midgrey
+
 
 body {
     width: 100%;
@@ -30,6 +32,93 @@ h5 {
     position: relative;
     width: 80%;
     margin: 0 auto;
+}
+
+.card {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    height: 250px;
+    margin: 50px auto;
+    background-color: #EAEBF8;;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px #476C9B30;
+}
+
+.card img {
+    position: relative;
+    height: 90%;
+    margin: 12px 20px 12px 12px;
+    float: left;
+}
+
+.info h2 {
+    font-family: Titillium Web, helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 48px;
+    color: #3066BE;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.info h4 {
+    font-family: Titillium Web, helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #2F4858;
+    margin: 0;
+}
+
+.info h5 span {
+    font-family: Titillium Web, helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 0px;
+    color: #3066BE;
+    margin: 0px 0px 0px -10px;
+    padding: 0 10px;
+    background-color: #F1BF98;
+    border: solid 3px #3066BE;
+    border-radius: 2px;
+}
+
+.info h6 {
+    font-family: Titillium Web, helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    color: #476C9B;
+    margin: 30px 0px 0px;
+    float: left;
+}
+
+.info a {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    padding: 10px 40px;
+    background-color: #DA2C38;
+    font-family: Titillium Web, helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 3px 3px 0px #fff;
+}
+
+.info a:hover {
+    background-color: #23CE6B;
+    box-shadow: 3px 3px 0px #3066BE;
+}
+
+.info {
+    display: block;
+    width: 55%;
+    float: left;
 }
 
 .album {
